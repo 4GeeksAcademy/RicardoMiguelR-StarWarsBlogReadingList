@@ -1,3 +1,19 @@
-/* 
-    General Styles
-*/
+body {
+    background: rgb(41, 41, 41);
+    color: aliceblue;
+    cursor: cell;
+}
+
+.navbar {
+    background: black;
+    border-bottom: 1px solid rgb(131, 130, 130);
+}
+
+.card {
+    color: black;
+    border: none;
+}
+
+.new-cursor {
+    cursor: url('https://image.pngaaa.com/522/4044522-small.png'), auto;
+}

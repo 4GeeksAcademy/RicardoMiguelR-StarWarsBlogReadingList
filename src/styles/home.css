@@ -1,0 +1,36 @@
+.homeI {
+  border-radius: 30px;
+  border: 2px solid transparent;
+  transition: box-shadow 0.3s ease;
+}
+  
+.homeI:hover {
+  box-shadow: 0px 0px 18px -3px rgba(255, 255, 254, 0.96);
+}
+
+.title1 {
+  border-bottom: 2px solid black;
+  font-family: Impact;
+}
+
+.color-title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(148, 146, 146);
+  -webkit-text-fill-color: black;
+  padding: px;
+  margin: 0;
+
+}
+
+.color-title:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(148, 146, 146);
+  -webkit-text-fill-color: black;
+  padding: 2px;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.Characters {
+  overflow-x: auto;
+}
