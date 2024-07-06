@@ -1,19 +1,174 @@
 body {
-    background: rgb(41, 41, 41);
-    color: aliceblue;
-    cursor: cell;
+    background: rgb(27, 27, 27);
+    cursor: grab;
+    color: white;
+    font-family: Courier New;
+}
+
+.footer {
+  background-image: url(https://img1.picmix.com/output/stamp/normal/6/7/7/2/2776_c251f.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  height: 10rem;
+  border-top: 1px solid rgb(131, 130, 130);
 }
 
 .navbar {
-    background: black;
-    border-bottom: 1px solid rgb(131, 130, 130);
+  background-image: url(https://www.caccioppoli.com/Animated%20gifs/Starwars/0070.gif);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: black;
+  border-bottom: 1px solid rgb(131, 130, 130);
 }
 
-.card {
-    color: black;
-    border: none;
+.social-links {
+  display: inline-flex;
+  justify-content: center;
 }
 
-.new-cursor {
-    cursor: url('https://image.pngaaa.com/522/4044522-small.png'), auto;
+.body-offcanvas {
+  background-image: url(https://wallpapers.com/images/hd/star-wars-background-mpyuarbyuk4xj88x.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.title-name {
+  border-radius: 37%;
+  background: black;   
+  color: white;
+}
+
+.card-generalD {
+  width: 70rem;
+  background: black;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 400px;
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+}
+
+.img-generalD {
+  border-radius: 50%;
+  position: relative;
+}
+
+.animated-glitter {
+  animation: glitter 3s linear infinite;
+}
+
+@keyframes glitter {
+  0% {
+      box-shadow: 0 0 10px rgb(47, 190, 209);
+  }
+  50% {
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+
+.img-4geeks {
+  border-radius: 50%;
+}
+
+.img-4geeks:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.img-fav {
+  border-radius: 30%;
+}
+
+#social-icons:hover {
+  transform: skew(-10deg, -20deg);
+  transition: transform 0.3s ease-in-out;
+  text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgba(37, 68, 243, 0.6);
+}
+
+.homeI:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes scrollText {
+  0% {
+      transform: translateY(100%);
+  }
+  100% {
+      transform: translateY(-100%);
+  }
+}
+
+.scroll-text-container {
+  position: relative;
+  height: 300px; /* Ajusta según sea necesario */
+  overflow: hidden;
+}
+
+.scroll-text {
+  position: absolute;
+  animation: scrollText 25s linear infinite; /* Ajusta la duración según sea necesario */
+  text-align: center;
+}
+
+.shadow-title {
+  color: grey;
+  text-transform: uppercase;
+}
+
+.fav-back {
+  background-image: url(https://i.pinimg.com/originals/3d/c3/87/3dc387151b115cf7ae0cf344b8e40eff.gif);
+  color: white;
+}
+
+.fav-back:hover {
+  color:aqua;
+  box-shadow: 0px 0px 8px 1px rgba(103,224,245,1);
+}
+
+.remove-general {
+  background-image: url(https://i.pinimg.com/originals/7c/0f/22/7c0f221266d523ad351c8a8c7c818b22.gif);
+  color: white;
+  border-radius: 50%;
+}
+
+.remove-general:hover {
+  color: aqua;
+  box-shadow: 0px 0px 8px 1px magenta;
+}
+
+.color-titles-favOff {
+  color: rgb(208, 221, 20);
+}
+
+.navbar2 {
+  float: inline-center;
+}
+
+.search-items {
+  background: black;
+}
+
+.back-img {
+  background-image: url(https://i.pinimg.com/originals/b5/a1/63/b5a16319d2587f13305090fcab2ccaef.gif);
+  border: none;
+}
+
+#placeholder-color::placeholder {
+  color: white;
+}
+
+#color-move-hover:hover {
+  background: rgba(23, 78, 228, 0.603);
+  color: white;
 }

@@ -1,36 +1,55 @@
-.homeI {
-  border-radius: 30px;
-  border: 2px solid transparent;
-  transition: box-shadow 0.3s ease;
-}
-  
-.homeI:hover {
-  box-shadow: 0px 0px 18px -3px rgba(255, 255, 254, 0.96);
-}
-
-.title1 {
-  border-bottom: 2px solid black;
-  font-family: Impact;
+.titles {
+  border-bottom: 3px solid black;
+  border-left: 3px solid rgba(189, 18, 18, 0.822);
+  -webkit-text-stroke-width: thick;
+  font-family: Lucida Sans;
+  padding-left: 1rem;
 }
 
 .color-title {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(148, 146, 146);
-  -webkit-text-fill-color: black;
-  padding: px;
-  margin: 0;
-
-}
-
-.color-title:hover {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(148, 146, 146);
-  -webkit-text-fill-color: black;
-  padding: 2px;
-  margin: 0;
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.795);
+  font-weight: 100;
 }
 
 .Characters {
   overflow-x: auto;
+}
+
+.Planets {
+  overflow-x: auto;
+}
+
+.Starships {
+  overflow-x: auto;
+}
+
+.section-favoYfull {
+  display: ruby;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.slick-prev, .slick-next {
+  color: black;
+  z-index: 1;
+}
+
+.card {
+  margin: auto;
+  border: none;
+  border-radius: 15px;
+  border-bottom-right-radius: 35%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 20%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
 }
